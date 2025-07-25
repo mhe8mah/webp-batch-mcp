@@ -150,6 +150,11 @@ class WebPBatchServer {
     const transport = new StdioServerTransport();
     await this.server.connect(transport);
     console.error('WebP Batch MCP server running on stdio');
+
+    // Keep the process alive to handle multiple requests
+    await new Promise(() => {
+      /* intentional noop */
+    });
   }
 }
 
