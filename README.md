@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for batch converting images to WebP format with cross-platform support. Works seamlessly with MCP-aware IDEs like Cursor.
 
+<a href="https://glama.ai/mcp/servers/@mhe8mah/webp-batch-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@mhe8mah/webp-batch-mcp/badge" alt="WebP Batch Converter MCP server" />
+</a>
+
 ## 🌟 Features
 
 - 🖼️ **Batch conversion** of PNG, JPG, and JPEG files to WebP
